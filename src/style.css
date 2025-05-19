@@ -1,0 +1,54 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#app {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Override markmap default styles */
+.markmap-container svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Common styles for both views */
+.content-pane {
+  background: #fafafa;
+}
+
+/* Radio button styles */
+.mode-switcher input[type="radio"] {
+  accent-color: #007bff;
+}
+
+.mode-switcher label {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.mode-switcher label:hover {
+  background-color: #f0f0f0;
+}
